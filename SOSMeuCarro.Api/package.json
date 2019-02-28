@@ -1,0 +1,15 @@
+{
+  "name": "sosmeucarro.api",
+  "version": "1.0.0",
+  "description": "API em NodeJS para app SOS Meu Carro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(git://github.com/viniciusmacielleite/sosmeucarro.git)"
+  },
+  "author": "Vinicius Maciel Leite",
+  "license": "ISC"
+}
