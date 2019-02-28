@@ -11,5 +11,8 @@
     "url": "(git://github.com/viniciusmacielleite/sosmeucarro.git)"
   },
   "author": "Vinicius Maciel Leite",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
