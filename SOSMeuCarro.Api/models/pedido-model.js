@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const mongoose = require('mongoose');
 const schema = mongoose.Schema;
@@ -9,7 +9,7 @@ const pedidoModel = new schema({
     preco: { type: Number, required: true },
     ativo: { type: Boolean, required: true },
     dataCriacao: { type: Date, default: Date.now }
-}, { versionKey: false });
+}, { collection: 'pedidos', versionKey: false });   //nome da coleção é configurado aqui
 
 pedidoModel.pre('save', next => {
     let agora = new Date();

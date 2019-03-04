@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const app = require('../SOSMeuCarro.Api/bin/express');
 const variables = require('../SOSMeuCarro.Api/bin/configuration/variables');
