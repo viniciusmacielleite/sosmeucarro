@@ -2,7 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
-const controller = require('../controllers/pedido-controller');
+const controller = require('../controllers/agendamento-controller');
 const auth = require('../middlewares/authentication');
 
 let _ctrl = new controller();

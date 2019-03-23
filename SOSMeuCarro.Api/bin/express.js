@@ -6,6 +6,7 @@ const variables = require('../bin/configuration/variables');
 //Routers
 const categoriaRouter = require('../routes/categoria-router');
 const pedidoRouter = require('../routes/pedido-router');
+const usuarioRouter = require('../routes/usuario-router');
 
 //Invocando a Api/WebServer do Express
 const app = express();
@@ -20,5 +21,6 @@ mongoose.connect(variables.Database.connection, {dbName: "sosmeucarro", useNewUr
 //Configuração de rotas
 app.use('/api/categoria', categoriaRouter);
 app.use('/api/pedido', pedidoRouter);
+app.use('/api/usuario', usuarioRouter);
 
 module.exports = app;
